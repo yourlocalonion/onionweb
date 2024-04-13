@@ -4,6 +4,7 @@ import Card from "../components/card.astro"
 import { Image } from 'astro:assets';
 
 import lmao from '../assets/lmao.png'
+import clutch from '../assets/clutch.png'
 ---
 
 <html lang="en">
@@ -36,6 +37,11 @@ import lmao from '../assets/lmao.png'
 			</Card>
 
             <hr class="border-slate-900 border-2 border-solid mb-10">
+
+			<Card title="clutch" ext=".png">
+				<Image src={clutch} alt="yea" class="mr-auto ml-auto mb-2"/>
+				<p class="font-dmmono font-regular text-md text-center text-black">just clutched in pixel gun 3d</p>
+			</Card>
 			<Card title="lmao" ext=".png">
 				<Image src={lmao} alt="yea" class="mr-auto ml-auto mb-2"/>
 				<p class="font-dmmono font-regular text-md text-center text-black">no i wont release the full image go find it urself</p>
