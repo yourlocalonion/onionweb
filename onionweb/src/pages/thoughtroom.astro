@@ -1,6 +1,9 @@
 ---
-import CardLeft from "../components/card_left.astro"
+
 import Card from "../components/card.astro"
+import { Image } from 'astro:assets';
+
+import lmao from '../assets/lmao.png'
 ---
 
 <html lang="en">
@@ -26,13 +29,17 @@ import Card from "../components/card.astro"
 			<p class="font-noto font-semibold text-md text-center text-orange-100">thoughtroom</p>
 		</div>
 		<div class="p-2 md:p-0">
-			<CardLeft title="whats_this">
+			<Card title="whats_this">
 				<p class="font-dmmono font-regular text-xl text-black">
 					if i get random thoughts that i wanna share to the world i post them here.
 				</p>
 			</Card>
 
             <hr class="border-slate-900 border-2 border-solid mb-10">
+			<Card title="lmao" ext=".png">
+				<Image src={lmao} alt="yea" class="mr-auto ml-auto mb-2"/>
+				<p class="font-dmmono font-regular text-md text-center text-black">no i wont release the full image go find it urself</p>
+			</Card>
             <Card title="bagelss">
                 <p class="font-dmmono font-regular text-xl text-black">are bagels donuts.. or are donuts bagels...</p>
             </Card>
