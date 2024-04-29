@@ -15,8 +15,8 @@ export default {
 			},
 			animation: {
 				wiggle: 'wiggle 5s ease-in-out infinite',
-			}
+			},
 		},
 	},
-	plugins: [],
+	plugins: [require('@tailwindcss/typography'),],
 }
