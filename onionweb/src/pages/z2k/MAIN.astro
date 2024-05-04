@@ -21,6 +21,8 @@
             const mainlog_1 = document.getElementById('mainlog_1')
             const mainlog_2 = document.getElementById('mainlog_2')
 
+            const maininp = document.getElementById('mainlog_inp')
+
             /*helper*/
 
             function sleep(ms) {
@@ -37,7 +39,21 @@
                 mainlog_den.className = "bg-slate-700"
             }
 
+            async function atdeny() {
+                maininp.className = ""
+            }
+
+            async function activate() {
+                let active = (document.getElementById("activate_field") as HTMLInputElement).value
+                if (btoa(active) == "cGZvcmdl") {
+                    window.open('./pforge')
+                }
+            }
+
             mainlog_btn.addEventListener("click", mainlog)
+            mainlog_den.addEventListener("click", atdeny)
+
+            document.getElementById("activate").addEventListener("click", activate)
         </script>
         
         <p class="mb-6">CONSOLE[Z2KADMIN]</p>
@@ -47,5 +63,11 @@
         <p id="mainlog_2" class="hidden">found log file (20-4-08.log)</p>   
         <a class="bg-slate-700 hidden" href="../mainlog" id="mainlog_accept">interface > | open |</a>
         <button class="bg-slate-700 hidden" id="mainlog_deny">| close |</button>
+        <div id="mainlog_inp" class="hidden">
+            <label class="bg-slate-700">interface ?</label>
+            <input class="bg-slate-700" id="activate_field">
+            <button class="bg-slate-700" id="activate">activate</button>
+        </div>
+        
 	</body>
 </html>
