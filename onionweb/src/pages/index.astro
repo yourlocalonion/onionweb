@@ -1,6 +1,5 @@
 ---
-import CardLeft from "../components/card_left.astro"
-import CardRight from "../components/card_right.astro"
+import Card from "../components/card.astro"
 ---
 
 <html lang="en">
@@ -25,34 +24,36 @@ import CardRight from "../components/card_right.astro"
 			<h1 class="font-noto font-semibold animate-wiggle overflow-hidden text-4xl text-center text-orange-100">welcome to the onionweb™</h1>
 			<p class="font-noto font-semibold text-md text-center text-orange-100">title page</p>
 		</div>
+		<div class="text-center mb-3 border-b-4 border-gray-700">
+			<a href="./aboutme" class="text-gray-900 bg-gray-400 p-1 border-2 border-gray-700 none">aboutme.astro</a>
+			<a href="./thoughtroom" class="text-gray-900 bg-gray-400 p-1 border-2 border-gray-700 none">thoughtroom.astro</a>
+		</div>
 		<div class="p-2 md:p-0">
-			<CardLeft title="hey">
+			<Card title="hey">
 				<p class="font-dmmono font-regular text-xl text-black">
 					hi there!! welcome to my page<br>
-					<a href="./aboutme" class="text-sky-700 underline">about me</a><br>
-					<a href="./thoughtroom" class="text-sky-700 underline">thoughtroom</a>
 				</p>
-			</CardLeft>
-			<CardRight title="wat_iz_this">
+			</Card>
+			<Card title="wat_iz_this">
 				<p class="font-dmmono font-regular text-xl text-black">
 					to be honest... i dont know :P<br>
 					i probably made this page to test stuff out i guess..?
 				</p>
-			</CardRight>
-			<CardLeft title="whats_my_status">
+			</Card>
+			<Card title="whats_my_status">
 				<p class="font-dmmono font-regular text-xl text-black">
 					my discord status is: <span id="dcstat" class="">(loading)</span><br>
 					online or dnd: online (you can talk to me or ping me)<br>
 					idle or offline: prob sleeping or away
 				</p>
-			</CardLeft>
-			<CardRight title="this_page_was_made_possible_by">
+			</Card>
+			<Card title="this_page_was_made_possible_by">
 				<p class="font-dmmono font-regular text-xl text-blue">
 					this page was built with <a href="https://astro.build" class="text-sky-700 underline">Astro!</a><br>
 					this page is hosted on <strong>Cloudflare Pages!</strong> (github pages but on steroids)<br>
 					this page is also using <a class="text-sky-700 underline">Tailwind CSS!</a>
 				</p>
-			</CardRight>
+			</Card>
 		</div>
 		<script src="../scripts/main.js"></script>
 	</body>
