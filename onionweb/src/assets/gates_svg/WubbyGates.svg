@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 -1.353 1694.234 1430.129" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Nunito">@import url(https://fonts.googleapis.com/css2?family=Nunito%3Aital%2Cwght%400%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900&amp;display=swap);</style>
+  </defs>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -55.186000823974666, -23.535995483398466)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(197, 23, 12);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(222, 34, 19);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 84.4px; font-weight: 900; white-space: pre;" x="98.713" y="137.656">AND</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre;" x="166.598" y="212.319">0/0</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 224.2870178222655, -23.535995483398466)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(226, 107, 212);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(241, 141, 232);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 46px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 96.210503, -40.41172)"><tspan x="98.713" y="137.656">BOOLEAN</tspan><tspan x="98.713" dy="1em">​</tspan><tspan>SETTER</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre;" x="153.156" y="212.319">false</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 503.760009765625, -23.535995483398466)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(197, 121, 181);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(222, 155, 210);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 46px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 96.210503, -40.41172)"><tspan x="98.713" y="137.656">BOOLEAN</tspan><tspan x="98.713" dy="1em">​</tspan><tspan>STORAGE</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre;" x="153.156" y="212.319">false</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 783.2329711914062, -23.5359916687012)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(155, 44, 138);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(188, 63, 171);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 44px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 62.962513, -42.333363)"><tspan x="131.961" y="167.698">BOOLEAN</tspan><tspan x="131.961" dy="1em">​</tspan><tspan>SWITCH</tspan></text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1062.7059326171873, -23.53598403930667)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(0, 189, 226);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(0, 215, 241);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 71px; font-weight: 900; white-space: pre; text-anchor: middle;" x="194.924" y="124.224">DELAY</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.924" y="212.319">1</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1342.1789550781248, -23.536001205444364)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(34, 158, 56);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(50, 190, 80);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 40px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0, -39.86491)"><tspan x="194.924" y="137.656">GET GAME</tspan><tspan x="194.924" dy="1em">​</tspan><tspan>PROPERTY</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.924" y="212.319">NumPlayers</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -55.185993194580135, 212.12599182128903)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(86, 170, 74);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(117, 201, 103);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 40px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0, -39.86491)"><tspan x="194.924" y="137.656">GET NPC</tspan><tspan x="194.9239959716797" dy="1em">​</tspan><tspan>PROPERTY</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.924" y="212.319">Health</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 224.2869873046874, 212.12602233886716)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(25, 106, 14);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(38, 140, 20);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 36px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0, -39.86491)"><tspan x="194.924" y="137.656">GET PLAYER</tspan><tspan x="194.924" dy="1em">​</tspan><tspan>PROPERTY</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 37px; font-weight: 600; text-anchor: middle; white-space: pre;" x="194.924" y="212.319">DisplayName</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 503.760009765625, 212.12602233886716)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(204, 99, 21);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(227, 131, 30);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 48px; font-weight: 900; text-anchor: middle; white-space: pre;" x="194.924" y="121.866">GET STAT</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 37px; font-weight: 600; text-anchor: middle; white-space: pre;" x="194.924" y="212.319">Placeholder</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 783.2330322265625, 212.12599182128903)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(226, 88, 94);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(241, 120, 125);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 74.6px; font-weight: 900; white-space: pre; text-anchor: middle;" x="194.923" y="116.534">IF</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="212.319">1</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 34.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="169.328">EQUAL TO</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1062.7059326171873, 212.12602233886716)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(130, 172, 119);" x="68.267" y="36.823" width="253.312" height="206.382" ry="0" rx="0"/>
+    <rect style="paint-order: fill; fill: rgb(164, 202, 154);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 36px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 96.446953, -57.22113)"><tspan x="98.713" y="137.656">LOOP </tspan><tspan x="98.713" dy="1em">​</tspan><tspan>THROUGH </tspan><tspan x="98.713" dy="1em">​</tspan><tspan>EVERYONE</tspan></text>
+    <path d="M 75.878 164.914 L 194.928 164.914 L 194.928 236.068 L 75.878 236.068 L 75.878 164.914 Z" style="paint-order: fill; stroke-width: 4px; stroke: rgb(130, 172, 119); fill: rgb(164, 202, 154);"/>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" transform="matrix(1, 0, 0, 1, -250.707, -2.752)" y="215.722" x="386.11">3<tspan x="386.1099853515625" dy="1em">​</tspan></text>
+    <path d="M 194.928 164.914 L 313.978 164.914 L 313.978 236.068 L 194.928 236.068 L 194.928 164.914 Z" style="paint-order: fill; stroke-width: 4px; stroke: rgb(130, 172, 119); fill: rgb(164, 202, 154);"/>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" transform="matrix(1, 0, 0, 1, -131.656998, -2.752279)" y="215.722" x="386.11">1<tspan x="386.1099853515625" dy="1em">​</tspan></text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1342.1789550781248, 212.12599182128903)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(53, 82, 169);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(76, 112, 199);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 74.6px; font-weight: 900; white-space: pre; text-anchor: middle;" x="194.923" y="116.534">MATH</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="212.319">1</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 34.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="169.328">ADD</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -55.186000823974666, 447.78802490234375)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(161, 0, 0);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(192, 0, 0);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 84.4px; font-weight: 900; white-space: pre; text-anchor: middle;" x="194.923" y="167.698">NOT</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 224.28700256347645, 447.7879638671875)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(58, 109, 185);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(81, 142, 212);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 51px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0, -41.261036)"><tspan x="194.924" y="137.656">NUMBER</tspan><tspan x="194.924" dy="1em">​</tspan><tspan>SETTER</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.924" y="212.319">0</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 503.7600402832031, 447.78802490234375)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(58, 109, 185);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(81, 142, 212);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 46px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0, -41.261036)"><tspan x="194.924" y="137.656">NUMBER</tspan><tspan x="194.924" dy="1em">​</tspan><tspan>STORAGE</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.924" y="212.319">0</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 783.2330322265625, 447.7879943847656)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(197, 23, 12);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(222, 34, 19);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 84.4px; font-weight: 900; white-space: pre; text-anchor: middle;" x="194.923" y="167.698">OR</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1062.7060546874998, 447.7879943847656)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(173, 177, 186);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(202, 207, 213);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 36px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0, -41.261036)"><tspan x="194.924" y="137.656">PLAYER </tspan><tspan x="194.924" dy="1em">​</tspan><tspan>OWNS PASS</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.924" y="212.319">Placeholder</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1342.1788330078123, 447.7880554199219)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(168, 225, 225);" x="68.267" y="36.823" width="253.312" height="206.382" ry="0" rx="0"/>
+    <rect style="paint-order: fill; fill: rgb(199, 241, 240);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 42px; font-weight: 900; text-anchor: middle; white-space: pre;" x="195.16" y="116.143">REPEATER</text>
+    <path d="M 75.878 164.914 L 194.928 164.914 L 194.928 236.068 L 75.878 236.068 L 75.878 164.914 Z" style="paint-order: fill; stroke-width: 4px; stroke: rgb(168, 225, 225); fill: rgb(199, 241, 240);"/>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" transform="matrix(1, 0, 0, 1, -250.707, -2.752)" y="215.722" x="386.11">5<tspan x="386.1099853515625" dy="1em">​</tspan></text>
+    <path d="M 194.928 164.914 L 313.978 164.914 L 313.978 236.068 L 194.928 236.068 L 194.928 164.914 Z" style="paint-order: fill; stroke-width: 4px; stroke: rgb(168, 225, 225); fill: rgb(199, 241, 240);"/>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" transform="matrix(1, 0, 0, 1, -131.656998, -2.752279)" y="215.722" x="386.11">3<tspan x="386.1099853515625" dy="1em">​</tspan></text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -55.18596267700201, 683.4500122070312)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(217, 185, 30);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(235, 213, 45);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 46px; font-weight: 900; text-anchor: middle; white-space: pre;" x="194.924" y="123.678">SET STAT</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.924" y="212.319">Placeholder</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 224.28704833984364, 683.449951171875)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(226, 226, 141);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(241, 241, 175);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 40px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.000488, -31.872097)"><tspan x="194.923" y="116.534">TEXT</tspan><tspan x="194.923" dy="1em">​</tspan><tspan>EDITING</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="212.319">Placeholder</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 34.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="169.328">SET</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 503.7600402832031, 683.4500122070312)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(209, 216, 89);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(230, 235, 121);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 58px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.000488, -13.461354)"><tspan x="194.923" y="116.534">TEXT</tspan><tspan x="194.923" dy="1em">​</tspan><tspan>INPUT</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="212.319">{INPUT}</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 783.2330932617188, 683.449951171875)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(199, 211, 51);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(223, 232, 72);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 47px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.000488, -13.461354)"><tspan x="194.923" y="116.534">TEXT</tspan><tspan x="194.923" dy="1em">​</tspan><tspan>STORAGE</tspan></text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="212.319">Sample Text</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1062.7058105468748, 683.4500732421875)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(226, 226, 141);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(241, 241, 175);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 40px; font-weight: 900; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.000488, -31.872097)" x="194.92300415039062" y="116.53399658203125">TRIPLE<tspan x="194.92300415039062" dy="1em">​</tspan>MATH</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 38.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="212.319">1</text>
+    <text style="fill: rgba(0, 0, 0, 0.506); font-family: Nunito; font-size: 34.2px; font-weight: 600; white-space: pre; text-anchor: middle;" x="194.923" y="169.328">NOISE</text>
+  </g>
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, 1342.1790771484373, 683.449951171875)">
+    <rect y="22.183" width="279.473" height="235.662" style="fill: rgb(188, 188, 188);" x="55.186"/>
+    <rect style="fill: rgb(138, 138, 138);" x="60.828" y="29.686" width="267.282" height="220.654" rx="2" ry="2"/>
+    <rect style="fill: rgb(197, 23, 12);" x="68.267" y="36.823" width="253.312" height="206.382" rx="2" ry="2"/>
+    <rect style="paint-order: fill; fill: rgb(222, 34, 19);" x="75.878" y="44.493" width="238.091" height="191.043" rx="2" ry="2"/>
+    <text style="font-family: Nunito; font-size: 84.4px; font-weight: 900; white-space: pre; text-anchor: middle;" x="194.923" y="167.698">XOR</text>
+  </g>
+</svg>

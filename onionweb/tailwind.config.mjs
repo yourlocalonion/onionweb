@@ -5,7 +5,9 @@ export default {
 		extend: {
 			fontFamily: {
 				noto: ["Noto Sans", "sans-serif"],
-				dmmono: ["DM Mono", "monospace"]
+				dmmono: ["DM Mono", "monospace"],
+				chakra: ["Chakra Petch"],
+				changa: ["Changa"]
 			},
 			keyframes: {
 				wiggle: {
