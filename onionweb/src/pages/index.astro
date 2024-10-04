@@ -1,7 +1,3 @@
----
-import Card from "../components/card.astro"
----
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -10,51 +6,105 @@ import Card from "../components/card.astro"
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="keywords" content="yourlocalonion">
-		<meta content="onionweb" property="og:title" />
-		<meta content="hii heyy helloo" property="og:description" />
+
+		<meta content="ONIONWEB" property="og:title" />
+		<meta content=">[main]" property="og:description" />
+
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-		<title>onionweb</title>
+		<title>MAIN</title>
 	</head>
-	<body class="bg-slate-800">
-		<div class="my-7">
-			<h1 class="font-noto font-semibold animate-wiggle overflow-hidden text-4xl text-center text-orange-100">welcome to the onionweb™</h1>
-			<p class="font-noto font-semibold text-md text-center text-orange-100">title page</p>
+	<body class="bg-zinc-900">
+		<p class="font-dmmono text-green-300 mx-8 mt-8 text-2xl">WELCOME, <span><button id="changename" type="button">[user]</button></span>.</p>
+		<div class="mx-8 hidden" id="nameput">
+			<span><p class="font-dmmono text-green-300 text-center text-2xl">[</p></span>
+			<input id="nameinput" type="text" class="placeholder:text-green-90 font-dmmono text-green-300 outline-none bg-transparent caret-green-300" autocomplete="off" placeholder="change name?">
+			<span><p class="font-dmmono text-green-300 text-center text-2xl">]</p></span>
 		</div>
-		<div class="text-center mb-3 border-b-4 border-gray-700">
-			<a href="../aboutme" class="text-gray-900 bg-gray-400 p-1 border-2 border-gray-700 none">aboutme.astro</a>
-			<a href="../thoughtroom" class="text-gray-900 bg-gray-400 p-1 border-2 border-gray-700 none">thoughtroom.astro</a>
+		<p class="font-dmmono text-green-300 mx-8 text-xl">// ..to the onionweb</p>
+		<div class="font-dmmono text-green-300 mx-8 my-4 text-lg grid grid-cols-1 gap-2 lg:grid-cols-2">
+			<div class="border-8 border-double border-green-600 px-4 py-2">
+				<p class="font-bold">THY-PLACEHOLDER <span class="hidden lg:inline float-right">( X ) ( - ) ( [[] )</span></p>
+				<p class="my-2">content content blah,, <br> the "window buttons" dont work for now (only appears in PC / large screens)</p>
+				<p class="my-2">another p element wooo yeahh aababababab <br>
+				oh yeah you can set a name for the welcome text on the top (click / tap on the "[name]") and it will save</p>
+			</div>
+			<div class="border-8 border-double border-green-600 px-4 py-2">
+				<p class="font-bold">CONNECTED-CLUSTERS <span class="hidden lg:inline float-right">( X ) ( - ) ( [[] )</span></p>
+				<div class="my-2 p-4 border-2 border-dashed border-green-600">
+					<p class="text-center">CLSID: WUBB | ADR: "wubby.pages.dev" | PRC-PWR: 2%</p>
+					<hr class="border my-2 mb-4 border-green-600">
+					<a href="https://wubby.pages.dev" class="p-2 border-2 border-green-600">visit</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">cerebrum interface</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">disconnect</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">hide</a>
+				</div>
+				<div class="my-2 p-4 border-2 border-dashed border-green-600">
+					<p class="text-center">CLSID: NVAE | ADR: null | PRC-PWR: undefined </p>
+					<hr class="border my-2 mb-4 border-green-600">
+					<a class="p-2 border-2 border-green-900 text-green-900">visit</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">cerebrum interface</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">disconnect</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">hide</a>
+				</div>
+			</div>
 		</div>
-		<div class="p-2 md:p-0">
-			<Card title="hey">
-				<p class="font-dmmono font-regular text-xl text-black">
-					hi there!! welcome to my page<br>
-				</p>
-			</Card>
-			<Card title="wat_iz_this">
-				<p class="font-dmmono font-regular text-xl text-black">
-					to be honest... i dont know :P<br>
-					i probably made this page to test stuff out i guess..?
-				</p>
-			</Card>
-			<Card title="whats_my_status">
-				<p class="font-dmmono font-regular text-xl text-black">
-					my discord status is: <span id="dcstat" class="">(loading)</span><br>
-					online or dnd: online (you can talk to me or ping me)<br>
-					idle or offline: prob sleeping or away
-				</p>
-			</Card>
-			<Card title="this_page_was_made_possible_by">
-				<p class="font-dmmono font-regular text-xl text-blue">
-					this page was built with <a href="https://astro.build" class="text-sky-700 underline">Astro!</a><br>
-					this page is hosted on <strong>Cloudflare Pages!</strong> (github pages but on steroids)<br>
-					this page is also using <a class="text-sky-700 underline">Tailwind CSS!</a>
-				</p>
-			</Card>
-		</div>
-		<script src="../scripts/main.js"></script>
 	</body>
+	<script>
+		let cookies = document.cookie
+
+		function getCookie(cname) {
+  			let name = cname + "=";
+  			let decodedCookie = decodeURIComponent(document.cookie);
+  			let ca = decodedCookie.split(';');
+  			for(let i = 0; i <ca.length; i++) {
+    			let c = ca[i];
+    			while (c.charAt(0) == ' ') {
+      			c = c.substring(1);
+    			}
+    			if (c.indexOf(name) == 0) {
+      			return c.substring(name.length, c.length);
+    			}
+  			}
+  			return "";
+		}
+
+		function getName() {
+			let name = getCookie('username')
+			console.log(name)
+			if (name == "") {
+				return "[name]"
+			} else {
+				return name
+			}
+		}
+		function toggnameinp() {
+			let x = document.getElementById("nameput");
+  			if (x.className == "mx-8 hidden") {
+    			x.className = "mx-8 flex";
+  			} else {
+    			x.className = "mx-8 hidden";
+  			}
+		}
+
+		function changename(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				
+				let nameinput = document.getElementById('nameinput') as HTMLInputElement
+				let x = document.getElementById("changename")
+				x.className = "animate-appear"
+				x.innerText = nameinput.value
+				document.cookie = `username=${nameinput.value}`
+			}
+		}
+
+		let changenameinp = document.getElementById("changename")
+		changenameinp.innerText = getName()
+		changenameinp.addEventListener('click', toggnameinp)
+		let nameinput = document.getElementById('nameinput')
+		nameinput.addEventListener('keypress', changename)
+	</script>
 </html>

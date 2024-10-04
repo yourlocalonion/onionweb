@@ -4,10 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				noto: ["Noto Sans", "sans-serif"],
 				dmmono: ["DM Mono", "monospace"],
-				chakra: ["Chakra Petch"],
-				changa: ["Changa"]
 			},
 			keyframes: {
 				wiggle: {
@@ -16,7 +13,7 @@ export default {
 				}
 			},
 			animation: {
-				wiggle: 'wiggle 5s ease-in-out infinite',
+				wiggle: 'wiggle 5s ease-in-out infinite'
 			},
 		},
 	},
