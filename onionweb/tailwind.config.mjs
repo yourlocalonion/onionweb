@@ -5,6 +5,7 @@ export default {
 		extend: {
 			fontFamily: {
 				dmmono: ["DM Mono", "monospace"],
+				novae: ["Protest Strike"]
 			},
 			keyframes: {
 				wiggle: {
