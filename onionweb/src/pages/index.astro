@@ -53,32 +53,15 @@
 		</div>
 	</body>
 	<script>
-		let cookies = document.cookie
-
-		function getCookie(cname) {
-  			let name = cname + "=";
-  			let decodedCookie = decodeURIComponent(document.cookie);
-  			let ca = decodedCookie.split(';');
-  			for(let i = 0; i <ca.length; i++) {
-    			let c = ca[i];
-    			while (c.charAt(0) == ' ') {
-      			c = c.substring(1);
-    			}
-    			if (c.indexOf(name) == 0) {
-      			return c.substring(name.length, c.length);
-    			}
-  			}
-  			return "";
-		}
 
 		function getName() {
-			let name = getCookie('username')
-			console.log(name)
-			if (name == "") {
+			let name = localStorage.getItem("name")
+			if (!name) {
 				return "[name]"
 			} else {
 				return name
 			}
+
 		}
 		function toggnameinp() {
 			let x = document.getElementById("nameput");
@@ -97,7 +80,7 @@
 				let x = document.getElementById("changename")
 				x.className = "animate-appear"
 				x.innerText = nameinput.value
-				document.cookie = `username=${nameinput.value}`
+				localStorage.setItem("name", nameinput.value)
 			}
 		}
 
