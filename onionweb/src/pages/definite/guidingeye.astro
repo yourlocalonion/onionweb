@@ -16,9 +16,50 @@
 		<script>
 			const queryString = window.location.search;
 			const urlParams = new URLSearchParams(queryString);
+			const p = document.getElementById("word");
 
 			const encrypted = urlParams.get('encrypted')
-			document.getElementById('word').textContent = encrypted
+			const finalText = encrypted;
+			
+			const characters = "!@#$%^&*()_+-=<>?/|}{[]~";
+
+			let current = Array(finalText.length).fill("-");
+			let interval = 20; // milliseconds per character scramble step
+			let steps = 10;    // number of steps before locking in the final character
+
+			let frame = 0;
+
+			function getRandomInt(min, max) {
+    			min = Math.ceil(min);
+    			max = Math.floor(max);
+    			return Math.floor(Math.random() * (max - min + 1)) + min;
+			}
+
+			function decryptStep() {
+			  let output = "";
+
+			  for (let i = 0; i < finalText.length; i++) {
+			    if (frame >= i * steps) {
+			      if (frame >= (i + 1) * steps) {
+					steps = getRandomInt(2,10)
+			        output += finalText[i]; // Lock in final letter
+			      } else {
+			        output += characters[Math.floor(Math.random() * characters.length)];
+			      }
+			    } else {
+			      output += current[i];
+			    }
+			  }
+
+			  p.textContent = output;
+
+			  frame++;
+			  if (frame <= (finalText.length + 1) * steps) {
+			    setTimeout(decryptStep, interval);
+			  }
+			}
+
+			decryptStep();
 		</script>
 	</body>
 </html>
