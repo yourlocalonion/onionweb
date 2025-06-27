@@ -1,0 +1,93 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="theme-color" content="#d9cc9c" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="keywords" content="yourlocalonion">
+
+		<meta content="onion-web" property="og:title" />
+		<meta content="legacy-node" property="og:description" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+		<title>legacy-node</title>
+	</head>
+	<body class="bg-zinc-900">
+		<p class="font-dmmono text-green-300 mx-8 mt-8 text-2xl">WELCOME, <span><button id="changename" type="button">[user]</button></span>.</p>
+		<div class="mx-8 hidden" id="nameput">
+			<span><p class="font-dmmono text-green-300 text-center text-2xl">[</p></span>
+			<input id="nameinput" type="text" class="placeholder:text-green-90 font-dmmono text-green-300 outline-none bg-transparent caret-green-300" autocomplete="off" placeholder="change name?">
+			<span><p class="font-dmmono text-green-300 text-center text-2xl">]</p></span>
+		</div>
+		<p class="font-dmmono text-green-300 mx-8 text-xl">// ..to the onionweb</p>
+		<div class="font-dmmono text-green-300 mx-8 my-4 text-lg grid grid-cols-1 gap-2 lg:grid-cols-2">
+			<div class="border-8 border-double border-green-600 px-4 py-2">
+				<p class="font-bold">THY-PLACEHOLDER <span class="hidden lg:inline float-right">( X ) ( - ) ( [[] )</span></p>
+				<p class="my-2">content content blah,, <br> the "window buttons" dont work for now (only appears in PC / large screens)</p>
+				<p class="my-2">another p element wooo yeahh aababababab <br>
+				oh yeah you can set a name for the welcome text on the top (click / tap on the "[name]") and it will save</p>
+			</div>
+			<div class="border-8 border-double border-green-600 px-4 py-2">
+				<p class="font-bold">CONNECTED-CLUSTERS <span class="hidden lg:inline float-right">( X ) ( - ) ( [[] )</span></p>
+				<div class="my-2 p-4 border-2 border-dashed border-green-600">
+					<p class="text-center">CLSID: WUBB | ADR: "wubby.pages.dev" | PRC-PWR: 2%</p>
+					<hr class="border my-2 mb-4 border-green-600">
+					<a href="https://wubby.pages.dev" class="p-2 border-2 border-green-600">visit</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">cerebrum interface</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">disconnect</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">hide</a>
+				</div>
+				<div class="my-2 p-4 border-2 border-dashed border-green-600">
+					<p class="text-center">CLSID: NVAE | ADR: null | PRC-PWR: undefined </p>
+					<hr class="border my-2 mb-4 border-green-600">
+					<a class="p-2 border-2 border-green-900 text-green-900">visit</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">cerebrum interface</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">disconnect</a>
+					<a class="hidden lg:inline p-2 border-2 border-green-900 text-green-900">hide</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+
+		function getName() {
+			let name = localStorage.getItem("name")
+			if (!name) {
+				return "[name]"
+			} else {
+				return name
+			}
+
+		}
+		function toggnameinp() {
+			let x = document.getElementById("nameput");
+  			if (x.className == "mx-8 hidden") {
+    			x.className = "mx-8 flex";
+  			} else {
+    			x.className = "mx-8 hidden";
+  			}
+		}
+
+		function changename(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				
+				let nameinput = document.getElementById('nameinput') as HTMLInputElement
+				let x = document.getElementById("changename")
+				x.className = "animate-appear"
+				x.innerText = nameinput.value
+				localStorage.setItem("name", nameinput.value)
+			}
+		}
+
+		let changenameinp = document.getElementById("changename")
+		changenameinp.innerText = getName()
+		changenameinp.addEventListener('click', toggnameinp)
+		let nameinput = document.getElementById('nameinput')
+		nameinput.addEventListener('keypress', changename)
+	</script>
+</html>

@@ -4,8 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				dmmono: ["DM Mono", "monospace"],
-				novae: ["Protest Strike"]
+				inconsolata: ["Inconsolata"],
+				dmmono: ["DM Mono"]
 			},
 			keyframes: {
 				wiggle: {
